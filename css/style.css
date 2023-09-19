@@ -1,7 +1,9 @@
 body{
     margin: 0;
     border: 0;
+    padding: 0;
     box-sizing: border-box;
+    background: #ccc;
 }
 
 #title, .subtitle, .post-title {
@@ -13,4 +15,10 @@ body{
     font-style: italic;
 }
 
+.posting {
+    background: #fff;
+    padding: 10px;
+    border: 3px solid #000;
+    margin: 10px;
+}
 
