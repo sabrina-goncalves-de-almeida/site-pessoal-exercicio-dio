@@ -5,6 +5,8 @@ body{
     box-sizing: border-box;
     background: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 a {
@@ -45,10 +47,12 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post-image {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contacts-list {
